@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: none;
+          }
+
+        nav{
+            float: right;
+            width: 360px;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            border-radius: 2px;
+            margin: 10px;
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 22px;
+            font-weight: 600;
+            transition: all ease 0.2s;
+        }
+
+        nav > a:hover{
+            color: white;
+            background-color:#1D7836;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1595958883413-40435c93e7c7?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+            background-size: cover;
+            padding: 0px;
+            height: 100vh; 
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+        .container {
+            max-width: 600px;
+            margin-top: 130px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(255, 255, 255, 0.1); 
+            padding: 50px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px); 
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+            border: 1px solid rgba(255, 255, 255, 0.2); 
+            flex-grow: 1;
+        }
+
+        h1 {
+            text-align: center;
+            color:#1D7836;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid whitesmoke;
+            border-radius: 4px;
+            backdrop-filter: blur(10px); 
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #1D7836;
+            color: whitesmoke;
+            border: none;
+            border-radius: 22px;
+            cursor: pointer;
+            transition: all ease 0.5s;
+        }
+
+        button:hover{
+            color: white;
+            box-shadow: 0 5px 15px #55af7f;
+        }
+             
+        .copyright {
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            font-size: 0.9em;
+            width: 100vw;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 160px; 
+            height: auto;
+            filter: drop-shadow(0px 0px 3px white);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <a href="landing.html" target="_blank"><img title="प्रकृति Harvest" class="logo" src="../my_logo.png" alt="प्रकृति Harvest"></a>
+
+    <form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+        <div class></div>
+
+        <nav>
+            <a href="landing.html" target="_parent">Home</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="feedback.html" target="top">Contact</a>
+        </nav>
+
+        <div class="container">
+            <h1 style="font-size: 3em;">Feedback</h1>
+            <input type="hidden" name="access_key" value="1c3f41d2-2870-412f-ae54-d8603a2ef077">
+            <br>
+
+            <div class="name">
+                <input type="text" name="Name" placeholder="Name">
+            </div>
+            <div class="email">
+                <input type="text" name="E-mail" placeholder="E-mail">
+            </div>
+            <div class="feedback">
+                <textarea id="feedback" name="msg" placeholder="Your Feedback" rows="4" style="font-size: 16px;"></textarea>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+
+    </form>
+    <br>
+    <br>
+    <footer>
+        <p class="copyright">&copy; 2024 प्रकृति Harvest. All rights reserved.</p>
+    </footer>
+    
+
+
+</body>
+
+</html>

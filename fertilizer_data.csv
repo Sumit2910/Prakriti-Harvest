@@ -1,0 +1,40 @@
+soil_type,crop_type,fertilizer,temperature_range,humidity_range
+clay,wheat,Urea 46:0:0,15-25,40-60
+clay,corn,NPK 20:20:0,18-30,50-70
+clay,cotton,NPK 18:46:0,20-35,40-70
+clay,rice,NPK 10:26:26,20-30,60-80
+loamy,rice,Urea 46:0:0,20-30,60-80
+loamy,sugarcane,NPK 10:26:26,18-35,60-85
+loamy,potato,MOP 0:0:60,10-18,70-90
+loamy,vegetables,NPK 12:32:16,16-25,60-80
+sandy,groundnut,NPK 17:17:17,22-32,30-50
+sandy,millet,SSP 16% P2O5,25-35,20-40
+sandy,pearl millet,NPK 15:15:15,20-35,30-45
+sandy,cucumber,Urea 46:0:0,18-25,50-70
+silty,barley,NPK 19:19:19,15-22,50-65
+silty,maize,Urea 46:0:0,20-32,60-75
+silty,vegetables,NPK 12:32:16,15-25,60-80
+silty,legumes,SSP 16% P2O5,18-28,40-60
+peaty,sugarcane,MOP 0:0:50,20-35,70-90
+peaty,rice,DAP 18:46:0,20-30,60-80
+peaty,tobacco,NPK 6:12:36,18-30,50-70
+peaty,pineapple,MOP 0:0:50,20-30,70-90
+saline,barley,NPK 20:20:0,10-20,40-55
+saline,cotton,Urea 46:0:0,15-30,40-70
+saline,date palm,SSP 16% P2O5,20-35,30-50
+saline,mustard,NPK 18:46:0,15-25,40-60
+alkaline,mustard,NPK 18:46:0,15-25,40-60
+alkaline,cotton,NPK 10:26:26,20-35,40-70
+alkaline,maize,MOP 0:0:60,20-32,50-70
+black,soybean,Urea 46:0:0,18-28,60-80
+black,sorghum,NPK 12:32:16,20-30,50-70
+black,cotton,NPK 20:20:0,20-35,40-70
+black,groundnut,NPK 17:17:17,22-32,30-50
+red,millet,SSP 16% P2O5,25-35,20-40
+red,groundnut,NPK 17:17:17,22-32,30-50
+red,tobacco,NPK 6:12:36,18-30,50-70
+red,peanut,NPK 17:17:17,22-32,30-50
+laterite,tea,NPK 20:20:20,10-25,50-70
+laterite,coconut,MOP 0:0:50,20-30,60-80
+laterite,coffee,NPK 10:26:26,18-25,50-70
+laterite,cocoa,Urea 46:0:0,20-30,70-90

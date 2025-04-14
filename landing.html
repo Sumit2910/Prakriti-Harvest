@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+    <title>Agriculture Fertilizer Recommendation - Get Started</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="about.html" target="_blank"><img title="प्रकृति Harvest" class="logo" src="../my_logo.png" alt="प्रकृति Harvest"></a>
+
+    <header>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>प्रकृति Harvest</h1>
+                <p>"GROWING DREAMS, HARVESTING SUCCESS"<br>Get personalized fertilizer recommendations based on your soil and crop type. Start now and improve your farming results.</p>
+                <a href="#fertilizer-form" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="get-started" class="content-section">
+            <h2>How It Works</h2>
+            <p>Simply select your soil type and crop to receive customized fertilizer recommendations.</p>
+            <div class="steps-container">
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Step 1 Image" class="step-img">
+                    <h3>Select Soil Type</h3>
+                    <p>Choose from a variety of soil types to match your field's conditions.</p>
+                </div>
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Step 2 Image" class="step-img">
+                    <h3>Select Crop</h3>
+                    <p>Input the crop you're growing to get the best fertilizer suggestion.</p>
+                </div>
+                <div class="step">
+                    <img src="https://images.unsplash.com/photo-1503762687835-129cc7a277e5?q=80&w=1835&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Step 3 Image" class="step-img">
+                    <h3>Get Recommendation</h3>
+                    <p>Receive fertilizer suggestions that can help boost your crop yield.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fertilizer-form" class="content-section">
+            <h1>Fertilizer Recommendation</h1>
+            <form id="fertilizer-form-element">
+                <label for="soil">Soil Type:</label>
+                <input type="text" id="soil" name="soil_type" required><br><br>
+                <label for="crop">Crop Type:</label>
+                <input type="text" id="crop" name="crop_type" required><br><br>
+                <label for="temperature">Temperature (°C):</label>
+                <input type="number" id="temperature" name="temperature" required><br><br>
+                <label for="humidity">Humidity (%):</label>
+                <input type="number" id="humidity" name="humidity" required><br><br>
+                <button type="submit">Get Recommendation</button> 
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="company-details">
+                <h3>About Us</h3>
+                <p>प्रकृति Harvest<br>
+                    "GROWING DREAMS, HARVESTING SUCCESS"<br>
+                    Providing smart agriculture solutions since 2024.<br>
+                    Contact us at: info@agritech.com<br>
+                    Phone: +91-9876543210</p>
+            </div>
+
+            <div class="contact-us-button">
+                <a href="feedback.html" target="_blank" class="contact-button">Contact Us</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 प्रकृति Harvest. All rights reserved.</p>
+    </footer>
+
+    <!-- Ensure only one script tag -->
+    <script src="app.js"></script>
+</body>
+</html>
