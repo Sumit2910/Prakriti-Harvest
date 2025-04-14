@@ -90,5 +90,33 @@
 
     <!-- Ensure only one script tag -->
     <script src="app.js"></script>
+
+    <script>
+    const languageData = {
+        en: {
+            title: "Welcome to Our Fertilizer Advisor",
+            subtitle: "Grow Smarter, Not Harder"
+        },
+        hi: {
+            title: "हमारे उर्वरक सलाहकार में आपका स्वागत है",
+            subtitle: "बुद्धिमानी से बढ़ाएं, मेहनत नहीं"
+        },
+        bn: {
+            title: "আমাদের সার পরামর্শদাতায় আপনাকে স্বাগতম",
+            subtitle: "বুদ্ধিমত্তার সাথে চাষ করুন, কষ্ট নয়"
+        }
+    };
+
+    const languageSelector = document.getElementById('language');
+    const heroTitle = document.querySelector('.hero-text h1');
+    const heroSubtitle = document.querySelector('.hero-text p');
+
+    languageSelector.addEventListener('change', function () {
+        const selectedLang = this.value;
+        heroTitle.textContent = languageData[selectedLang].title;
+        heroSubtitle.textContent = languageData[selectedLang].subtitle;
+    });
+</script>
+
 </body>
 </html>
